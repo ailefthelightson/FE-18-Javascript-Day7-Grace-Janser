@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+</head>
+
+<body>
+    <div class="header">
+        <div class="headLeft">
+            <h1 class="animate__animated animate__bounceInRight">Food Blog</h1>
+        </div>
+        <div class="headRecipe">
+            <a href="recipeOMonth.html">Recipe of the Month</a>
+        </div>
+        <div class="headRight">
+            <h1>Recipes</h1>
+        </div>
+        <div class="magGlass">
+            <img src="finalJPG.jpg">
+        </div>
+    </div>
+
+
+    <hr>
+    <br>
+
+    <div class="nav">
+        <div class="item">Pasta</div>
+        <div class="item">Taco</div>
+        <div class="item"><a href="">Pizza</a></div>
+        <div class="item"><a href="">Dessert</a></div>
+        <div class="item"><a href="">Breakfast</a></div>
+        <div class="item"><a href="">Lunch</a></div>
+        <div class="item"><a href="">Dinner</a></div>
+    </div>
+    </nav>
+    <br>
+    <hr>
+    <br>
+    <br>
+    
+<!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="https://cdn.pixabay.com/photo/2015/05/04/10/16/vegetables-752153__480.jpg" class="animate__animated animate__lightSpeedInRight"></div>
+      <div class="swiper-slide"><img src="https://cdn.pixabay.com/photo/2017/09/16/19/21/salad-2756467__480.jpg"></div>
+      <div class="swiper-slide"><img src="https://cdn.pixabay.com/photo/2017/12/01/16/14/cookies-2991174__480.jpg"></div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+    <br>
+    <br>
+    <div class="section">
+        <div class="block">
+            <p>Easy <br>Egg Salad</p>
+        </div>
+        <div class="block2">
+
+            <p>Dinner <br>
+
+                Cheeseburger</p>
+        </div>
+        <div class="block3">
+
+            <p>Pizza <br> Pizza</p>
+        </div>
+        <div class="block4">
+
+            <p>Dessert <br>Pancakes</p>
+        </div>
+        <div class="block5">
+
+            <p>Pasta <br>Zuchini Pasta</p>
+        </div>
+        <div class="block6">
+
+            <p>Easy <br>Egg Salad</p>
+        </div>
+        <div class="block7">
+
+            <p>Breakfast <br> Fruits oatmeal</p>
+        </div>
+        <div class="block8">
+
+            <p>Dessert <br> Red Velvet Cake</p>
+        </div>
+        <div class="block9">
+
+            <p>Easy<br> Egg Salad</p>
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <div class="footer">
+        <div class="footer1">
+            <div>
+                <a href="#">About</a>
+            </div>
+            <div>
+                <p>&#124</p>
+            </div>
+            <div>
+                <p>Recipes</p>
+            </div>
+            <div>
+                <p>&#124</p>
+            </div>
+            <div>
+                <p>FAQ</p>
+            </div>
+            <div>
+                <p>&#124</p>
+            </div>
+            <div>
+                <a href="https://codefactory.wien/en/contact-en/">Contact Us</a>
+            </div>
+
+        </div>
+        <div class="icons">
+            <img src="reddit.jpg">
+            <img src="facebook.jpg">
+            <img src="youtube.jpg">
+        </div>
+
+        <div class="copyRight">
+            <p>Copyright &#169 2022 Rob Grace</p>
+        </div>
+        <br>
+    </div>
+    <br>
+    <script type="module">
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+      
+        const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'vertical',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+      </script>
+</body>
+
+</html>
